@@ -1,0 +1,17 @@
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9c2d41;
+  text-align: center;
+}
+
+.footer h5 {
+  color: #f0f4f8;
+  margin: 0.1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.25;
+}

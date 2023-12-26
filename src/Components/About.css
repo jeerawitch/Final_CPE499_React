@@ -1,0 +1,99 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.about-main {
+  flex: 1;
+}
+
+.babel {
+  margin: 3rem auto;
+  width: 80%;
+  height: 250px;
+  background-color: #0a0f22;
+  border: 1px solid #56b2bb;
+  border-radius: 10px;
+}
+
+.babel-img {
+  width: 50%;
+}
+
+.babel-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.create {
+  margin: 3rem auto;
+  width: 80%;
+  height: 250px;
+  background-color: #0a0f22;
+  border: 1px solid #56b2bb;
+  border-radius: 10px;
+}
+
+.create-img {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+.create-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.npm {
+  margin: 3rem auto;
+  width: 80%;
+  height: 250px;
+  background-color: #0a0f22;
+  border: 1px solid #56b2bb;
+  border-radius: 10px;
+}
+
+.npm-img {
+  width: 28%;
+  margin-bottom: 0.3rem;
+}
+
+.npm-container {
+  text-align: center;
+  padding: 1rem;
+}
+
+.npm-title {
+  font-size: 1.72rem;
+}
+
+.babel-title,
+.create-title,
+.npm-title {
+  color: white;
+}
+
+.babel-text,
+.create-text,
+.npm-text {
+  color: #56b2bb;
+}
+
+@media (min-width: 992px) {
+  .babel {
+    width: 30%;
+  }
+
+  .create {
+    width: 30%;
+  }
+
+  .npm {
+    width: 30%;
+  }
+
+  .npm-title {
+    font-size: 2rem;
+  }
+}
